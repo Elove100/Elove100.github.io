@@ -1,0 +1,584 @@
+@font-face {
+    font-family: ABeeZee;
+    src: url(../font/ABeeZee-Regular.ttf);
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../font/ofont.ru_Proxima\ Nova.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #772020;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+
+}
+
+.logo {
+    font-family: ABeeZee;
+    font-size: 24px;
+    color: white;
+}
+
+.textt {
+    display: flex;
+    gap: 30px;
+}
+
+li a {
+    font-size: 18px;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+a:hover {
+    opacity: 0.2;
+}
+
+.icon {
+    flex-direction: column;
+    display: flex;
+    padding: 50px 100px;
+    height: 24px;
+    width: 24px;
+    gap: 40px;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.mans {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 185px;
+}
+
+.man1 {
+    position: relative;
+    top: -120px;
+}
+
+.man2 {
+    position: relative;
+    top: -60px;
+    z-index: 1;
+}
+
+.strelka {
+    position: absolute;
+    display: flex;
+    width: 180px;
+    height: 180px;
+    top: 63%;
+    left: 51%;
+    z-index: 2;
+}
+
+.fashion {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-35%, -80%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fashio {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-35%, -80%);
+    z-index: 2;
+}
+
+.text-lines {
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: column;
+}
+
+.text-block-one {
+    font-size: 32px;
+    width: 319px;
+    height: 78px;
+    color: white;
+}
+
+.lines {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+
+}
+
+.line {
+    height: 2px;
+    width: 27px;
+    background: white;
+    border-radius: 2px;
+}
+
+.line-long {
+    width: 131px;
+}
+
+/**второй блок**/
+.block-two-container {
+    background-color: #FFFBE8;
+    height: 1000px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: ABeeZee;
+}
+
+.container-blox-two {
+    display: flex;
+    justify-content: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 36px;
+    margin-top: 60px
+}
+
+.number-collection {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.top-collection {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.text-collection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.price {
+    font-size: 36px;
+    font-family: ProximaNova;
+}
+
+.to-collection {
+    font-size: 24px;
+    font-family: ProximaNova;
+}
+
+.rating {
+    font-size: 20px;
+    font-family: ProximaNova;
+}
+
+/** Третий блок **/
+.container-three {
+    position: relative;
+    background-color: #1D1D1B;
+    display: flex;
+    height: 798px;
+    justify-content: center;
+
+}
+
+.info-box {
+    padding: 120px 100px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.btn {
+    width: 280px;
+    height: 69px;
+    background-color: #BB352A;
+    font-size: 24px;
+    color: white;
+    font-family: ProximaNova;
+}
+
+.num-text {
+    font-family: ProximaNova;
+    color: white;
+    width: 525px;
+    font-size: 48px;
+
+}
+
+.big-text {
+    font-family: ProximaNova;
+    color: white;
+    width: 505px;
+    font-size: 20px;
+}
+
+.rotate {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100vh;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.rotate-text {
+    transform: rotate(-90deg);
+    width: 163px;
+    height: 49px;
+}
+
+.soc {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 100px;
+}
+
+.sitman {
+    display: flex;
+    position: relative;
+    height: 800px;
+}
+
+.rectangle {
+    position: absolute;
+    background-color: #BB352A;
+    height: 798px;
+    width: 344px;
+    margin-left: 200px;
+    z-index: 0;
+}
+
+.mansit {
+    z-index: 1;
+}
+
+.malestext {
+    color: white;
+
+
+}
+
+.mansit2 {
+    width: 65px;
+    height: 635px;
+    padding-top: 80px;
+}
+
+.container-four {
+    justify-content: center;
+    display: flex;
+    background-color: #FFFBE8;
+    height: px;
+    padding: 100px;
+}
+
+.man-price {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 480px;
+    gap: 20px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    gap: 60px;
+    margin-top: 20px;
+    font-family: ProximaNova;
+}
+
+.num-text-two {
+    font-family: ProximaNova;
+    color: black;
+    width: 452px;
+    font-size: 48px;
+}
+
+.big-text-two {
+    font-family: ProximaNova;
+    color: black;
+    width: 505px;
+    font-size: 20px;
+}
+
+.btn-two {
+    width: 280px;
+    height: 69px;
+    background-color: #BB352A;
+    font-size: 24px;
+    color: white;
+    font-family: ProximaNova;
+}
+
+.info-box-two {
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+/** подвал **/
+footer {
+    background-color: #1D1D1B;
+    height: 500px;
+}
+
+.full-info {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    color: white;
+    padding: 50px 60px;
+    font-family: ProximaNova;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.line-llong {
+    height: 1px;
+    width: 1280px;
+    background: white;
+    border-radius: 2px;
+    margin: 40px auto 0;
+}
+
+.ee {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 110px;
+}
+
+.NAKONECHTO-ZAKONCHIL {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons-end {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 400px) {
+
+    .container,
+    .text-lines,
+    .block-two-container,
+    .info-box,
+    .info-box-two,
+    .ee {
+        padding: 20px;
+    }
+
+    /* Шапка */
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .textt {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .icons {
+        gap: 20px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    /* HERO */
+    .mans {
+        gap: 20px;
+    }
+
+    .man1,
+    .man2 {
+        position: static;
+        width: 140px;
+        height: auto;
+    }
+
+    .fashion,
+    .fashio,
+    .strelka {
+        display: none;
+    }
+
+    .text-block-one {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    /* Второй блок */
+    .block-two-container {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .categories {
+        flex-direction: column;
+        font-size: 18px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .number-collection {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .collection img {
+        width: 260px;
+        height: auto;
+    }
+
+    /* Третий блок */
+    .container-three {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .rotate,
+    .rectangle,
+    .mansit2 {
+        display: none;
+    }
+
+    .info-box {
+        padding: 20px;
+    }
+
+    .num-text {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .big-text {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .sitman {
+        justify-content: center;
+        height: auto;
+    }
+
+    .mansit {
+        width: 220px;
+        height: auto;
+    }
+
+    /* Четвертый блок */
+    .container-four {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        gap: 40px;
+    }
+
+    .man-price {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box-two {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .num-text-two {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .big-text-two {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    /* Футер */
+    .full-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .line-llong {
+        width: 90%;
+    }
+
+    .ee {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+}
